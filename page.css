@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face{
+	font-family: "ghotic";
+    src: url('img/fonts/GOTH821C.TTF');
+}
+@font-face{
+	font-family: "fall";
+	src: url('img/fonts/fallouty.ttf');
+}
+
+html{
+	background-image: url("img/fond2.png");
+	background-attachment: fixed;
+	background-size: 100vmax;
+	text-align: center;
+	font-family: "ghotic";
+}
+
+h1{
+	color: #ffffff;
+	font-family: ghotic;
+	padding-top: 25px;
+	font-size: 4vw;
+	text-decoration: underline #000000;
+	text-underline-offset: 7px;
+	text-shadow: -2px 2px 3px #000000;
+}
+header{
+	padding-bottom: 25px;
+	padding-inline: 15px;
+}
+
+.accueil {
+	height: 10vw;
+	width: 10vw;
+	opacity: 0.75;
+}
+
+.accueil2, .accueil{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.lore{
+	font-family: fall;
+	font-size: 2vw;
+	color: #01B203;
+	padding-right: 35px;
+
+}
+.evol{
+	font-family: fall;
+	font-size: 2vw;
+	color: #01B203;
+}
+.shop{
+	font-family: fall;
+	font-size: 2vw;
+	color: #01B203;
+	padding-left: 35px;
+}
+
+body{
+	font-family: fall;
+	padding-top: 2vw;
+	color: #01B203;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	font-size: 1.5em;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.intro{
+	margin-top: 40px;
+	width: 40vw;
+	height: 30vw;
+	line-height: 35px;
+}
