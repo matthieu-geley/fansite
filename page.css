@@ -35,7 +35,7 @@ header{
 	padding-inline: 15px;
 }
 
-.accueil {
+.accueil{
 	height: 10vw;
 	width: 10vw;
 	opacity: 0.75;
@@ -45,6 +45,11 @@ header{
 	position: absolute;
 	top: 20px;
 	left: 20px;
+}
+.accueil2:hover{
+	transform: rotate(360deg);
+	transform-origin: 7vmax 7vmax;
+	transition: transform 2s ease-in-out;
 }
 .lore{
 	font-family: fall;
